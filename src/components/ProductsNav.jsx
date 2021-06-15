@@ -36,6 +36,11 @@ function ProductsNav({ sortBy, activeSort, sortCategory }) {
 
   React.useEffect(() => {
     document.addEventListener("click", handleOutsideClick);
+
+
+    return function cleanup() {
+      setsortActive(false)
+    };
   }, []);
 
   return (

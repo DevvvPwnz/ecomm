@@ -169,8 +169,8 @@ function Orders() {
                 />
               </div>
               <div className="grid__element grid-name">{item.name}</div>
-              <div className="grid__element">{item.price}$</div>
-              <div className="grid__element">{item.item}</div>
+              <div className="grid__element grid-price">{item.price}$</div>
+              <div className="grid__element grid-item">{item.item}</div>
             </div>
            ))}
   
