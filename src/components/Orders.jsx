@@ -153,9 +153,9 @@ function Orders() {
             <div className="grid__element grid__element-checkbox">
               <input type="checkbox" onChange={onSelectAll} checked={chekedAll ? true : false} />
             </div>
-            <div className="grid__element grid__element-header">name</div>
-            <div className="grid__element grid__element-header">price</div>
-            <div className="grid__element grid__element-header">item</div>
+            <div className="grid__element-name grid__element-header">name</div>
+            <div className="grid__element-price grid__element-header">price</div>
+            <div className="grid__element-item grid__element-header">item</div>
           </div>
 
            {items && items.map(item=>(

@@ -522,6 +522,16 @@ background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, F
     border: 1px solid #fff;
  
   }
+  .grid__element-name,.grid__element-item{
+    width: 35%;
+    padding: 10px;
+    border: 1px solid #fff;
+  }
+  .grid__element-price{
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #fff;
+  }
 }
  
 .grid__row:hover{
@@ -530,8 +540,11 @@ background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, F
 .grid-name {
   font-weight: bold;
 }
-.grid-name,.grid-price,.grid-item{
-  width: 30%;
+.grid-name,.grid-item{
+  width: 35%;
+}
+.grid-price{
+  width: 20%;
 }
 // ---- MSG --- 
 

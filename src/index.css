@@ -728,6 +728,18 @@ a {
   border: 1px solid #fff;
 }
 
+.grid__header .grid__element-name, .grid__header .grid__element-item, .grid__row .grid__element-name, .grid__row .grid__element-item {
+  width: 35%;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+.grid__header .grid__element-price, .grid__row .grid__element-price {
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
 .grid__row:hover {
   color: yellow;
 }
@@ -736,8 +748,12 @@ a {
   font-weight: bold;
 }
 
-.grid-name, .grid-price, .grid-item {
-  width: 30%;
+.grid-name, .grid-item {
+  width: 35%;
+}
+
+.grid-price {
+  width: 20%;
 }
 
 .msg {

@@ -13,14 +13,14 @@ function ProductsItem({products,setItem}) {
    setItem(id)
   }
   const deleteItem = (id,imageName) => {
-    
+    alert("In test mode you can add/edit items")
   
-  if (window.confirm('Are you sure you want to delete this item?')) {
-    firestore.collection('products').doc(id).delete()
+  // if (window.confirm('Are you sure you want to delete this item?')) {
+  //   firestore.collection('products').doc(id).delete()
   
-    const newStorage = projectStorage.ref()
-     newStorage.child(imageName).delete()
-  }
+  //   const newStorage = projectStorage.ref()
+  //    newStorage.child(imageName).delete()
+  // }
 
    }
   
