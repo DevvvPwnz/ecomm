@@ -20,7 +20,7 @@ function ProductsItem({products,setItem}) {
   
   //   const newStorage = projectStorage.ref()
   //    newStorage.child(imageName).delete()
-  // }
+  // }g
 
    }
   
